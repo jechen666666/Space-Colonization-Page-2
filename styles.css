@@ -1,0 +1,67 @@
+body {
+    background: url(https://cdnb.artstation.com/p/assets/images/images/006/926/749/large/jing-kai-yen-terrain01.jpg?150230596) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.alien {
+    width: 1200px;
+    bottom: 50px;
+    position:absolute;
+    left: 850px;
+}
+
+.player {
+    width: 300px;
+    bottom: 0px;
+    position: absolute;
+
+}
+
+.death {
+    width:80px;
+    transform: rotate(-30deg) scaleX(-1);
+    cursor: pointer;
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+}
+
+.explode {
+    width:1200px;
+    margin-top:50px;
+    margin-bottom:60px;
+}
+
+.return {
+    color: white;
+    font-size: 25px;
+}
+
+.end {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+.dialogue {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.text {
+    color: yellow;
+    width: 1000px;
+    border: yellow solid 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    padding: 30px;
+    font-size: 40px;
+}
+
+
